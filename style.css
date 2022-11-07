@@ -1,0 +1,87 @@
+body { /* Aplica a todo el body*/
+    background-color: #222120;
+    background-image: url("menu\ background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-x: center;
+    background-position: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:transparent;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 10px;
+    padding-top: 2px;
+    text-transform: initial;
+    margin-top: 2rem;
+    font-family: 'Xerochasy', sans-serif;                                         
+    font-size: 40px;
+    color: bisque;
+    
+    
+
+}
+
+.menu-item {
+    margin-top: 2%;
+    height: 2rem;
+    display: flex;
+    border-radius: 10px;
+    max-width: 100%;
+    background-image: none;
+    text-align:center;
+    text-align: justify;
+
+    
+}
+
+.menu-item:hover {
+    color: #3D3C42;
+    background-color: #dda87ca5;
+    
+}
+
+.ingredientes {
+    color: rgb(177, 181, 176);
+    flex: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+    margin-right: auto
+
+}
+.precio {
+    float: right;
+    margin-right: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: aliceblue;
+    justify-content: flex-end;
+    align-items: center;
+    }
+
+.producto {
+    float: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: transparent rgba(red, green, blue, alpha);
+    font-size: larger;
+    margin-right: 8px;
+    color: rgb(255, 255, 255);
+    margin-left: 4%;
+}
+
+/*
+Esta clase permite centrar verticalmente los items en el div, tener en cuenta que si aumenta el alto del div contenedor,
+el line-height acá también debería aumentar al mismo valor.
+*/
+.item {
+    vertical-align: middle;
+    line-height: 2rem; 
+}
+
+#lista-menu {
+    margin: auto; /* con esto se logra que este centrado horizontalmente */
+    flex-direction: row;
+    font-size: 17px;
+    font-weight: 600;
+}
